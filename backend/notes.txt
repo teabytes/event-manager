@@ -1,0 +1,4 @@
+18/10/23:
+- change in mongodb url in .env file from 'localhost' to '127.0.0.1' to fix MongooseServerSelectionError: connect ECONNREFUSED
+
+- npm ERR! code ENOENT, refer to https://stackoverflow.com/questions/49281952/error-while-using-create-react-app-enoent
