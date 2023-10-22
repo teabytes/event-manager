@@ -1,20 +1,22 @@
 import React, { useState } from 'react';
+import './UserForm.css';
 import axios from 'axios';
 
 const UserForm = () => {
-  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:5000/api/users', {
-        name,
         email,
+        password,
       });
       console.log(response.data);
-      setName('');
       setEmail('');
+      setPassword('');
     } catch (error) {
       console.error(error);
     }
@@ -22,21 +24,33 @@ const UserForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="name">Name:</label>
-      <input
-        type="text"
-        id="name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <label htmlFor="email">Email:</label>
-      <input
+      <div className='container'>
+
+      <div className='header'>
+        <div className='text'>LOGIN</div>
+      </div>
+
+      <div className='input-container'>
+        <div className='label'>Email:</div>
+        <input
         type="email"
         id="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-      />
-      <button type="submit">Add User</button>
+        />
+      </div>
+
+      <div className='input-container'>
+        <div className='label'>Password:</div>
+        <input
+        type="text"
+        id="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        />
+      </div>
+      <button type="submit" className='button'>Login</button>
+    </div>
     </form>
   );
 };
