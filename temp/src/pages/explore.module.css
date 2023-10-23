@@ -1,0 +1,184 @@
+.sl11302254210351 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    111.34deg,
+    #c02082,
+    #5e206d 27.14%,
+    #002059 98.59%
+  );
+  width: 1600px;
+  height: 1000px;
+}
+.exploreChild {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 111px;
+}
+.home {
+  position: relative;
+}
+.homeWrapper {
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.exploreWrapper {
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.15)
+  );
+  padding: 0 var(--padding-3xs);
+}
+.exploreWrapper,
+.myClubsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.iconProfileCircle {
+  position: relative;
+  width: 54px;
+  height: 54px;
+}
+.frameParent,
+.myProfileWrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent {
+  top: 20px;
+  right: 12px;
+  width: 550px;
+  height: 70px;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.myProfileWrapper {
+  top: 19px;
+  left: 11px;
+  justify-content: center;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-bottom: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100px;
+  height: 56px;
+  overflow: hidden;
+}
+.logOutWrapper {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameContainer,
+.frameGroup {
+  position: absolute;
+  width: 100px;
+}
+.frameContainer {
+  top: 56px;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.16),
+    rgba(255, 255, 255, 0.08)
+  );
+  height: 56px;
+  overflow: hidden;
+}
+.frameGroup {
+  top: 104px;
+  right: 5px;
+  height: 112px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 250px;
+  height: 250px;
+}
+.groupItem,
+.tedxPict {
+  position: absolute;
+  top: 198px;
+  left: 72px;
+}
+.groupItem {
+  top: 28px;
+  left: 50px;
+  background-color: var(--color-gainsboro);
+  width: 150px;
+  height: 150px;
+}
+.vectorContainer,
+.vectorParent {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+.vectorContainer {
+  position: absolute;
+  top: 0;
+  left: 295px;
+}
+.vectorGroup {
+  position: relative;
+  width: 545px;
+  height: 250px;
+}
+.groupParent {
+  position: absolute;
+  top: 225px;
+  left: 376px;
+  width: 848px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-xl);
+}
+.explore {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

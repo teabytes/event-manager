@@ -1,0 +1,231 @@
+.sl11302254210351 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    111.34deg,
+    #c02082,
+    #5e206d 27.14%,
+    #002059 98.59%
+  );
+  width: 1600px;
+  height: 1000px;
+}
+.exploreMoreClubs {
+  position: relative;
+}
+.exploreMoreClubsWrapper {
+  position: absolute;
+  top: 938px;
+  right: 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.iconArrowRight1 {
+  position: absolute;
+  right: 62px;
+  bottom: 28px;
+  width: 31px;
+  height: 24px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90.62deg,
+    rgba(255, 255, 255, 0.2) 9.89%,
+    rgba(255, 255, 255, 0.1)
+  );
+  width: 1600px;
+  height: 111px;
+}
+.iconCalendarTick {
+  position: absolute;
+  top: 29px;
+  left: 29px;
+  width: 53px;
+  height: 53px;
+  cursor: pointer;
+}
+.homeWrapper {
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+}
+.exploreWrapper,
+.homeWrapper,
+.myClubsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.myClubsWrapper {
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.15)
+  );
+  padding: 0 var(--padding-3xs);
+}
+.iconProfileCircle {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  cursor: pointer;
+}
+.frameParent {
+  position: absolute;
+  top: 20px;
+  right: 12px;
+  width: 550px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.rectangleParent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 111px;
+  font-size: var(--font-size-5xl);
+}
+.frameInner,
+.frameItem,
+.rectangleIcon {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 250px;
+  height: 314px;
+  z-index: 0;
+}
+.frameInner,
+.rectangleIcon {
+  z-index: 1;
+}
+.rectangleIcon {
+  z-index: 2;
+}
+.memberSince2021Wrapper {
+  top: 269.5px;
+  left: 47.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+.memberSince2021Wrapper,
+.rectangleDiv,
+.tedxPict {
+  position: absolute;
+  margin: 0 !important;
+}
+.tedxPict {
+  top: 210.5px;
+  left: 72.5px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  z-index: 4;
+}
+.rectangleDiv {
+  top: 25.5px;
+  left: 50.5px;
+  background-color: var(--color-gainsboro);
+  width: 150px;
+  height: 150px;
+  z-index: 5;
+}
+.memberSince2021Container {
+  top: 270px;
+  left: 347px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+.frameChild1,
+.memberSince2021Container,
+.tedxPict1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.tedxPict1 {
+  top: 210px;
+  left: 372px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  z-index: 7;
+}
+.frameChild1 {
+  top: 25px;
+  left: 350px;
+  background-color: var(--color-gainsboro);
+  width: 150px;
+  height: 150px;
+  z-index: 8;
+}
+.memberSince2021Frame {
+  top: 269px;
+  left: 647px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+}
+.frameChild2,
+.memberSince2021Frame,
+.tedxPict2 {
+  position: absolute;
+  margin: 0 !important;
+}
+.tedxPict2 {
+  top: 210px;
+  left: 672px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  z-index: 10;
+}
+.frameChild2 {
+  top: 25px;
+  left: 650px;
+  background-color: var(--color-gainsboro);
+  width: 150px;
+  height: 150px;
+  z-index: 11;
+}
+.vectorParent {
+  position: absolute;
+  top: 224px;
+  left: 375px;
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-base);
+}
+.myClubsMain {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
