@@ -6,8 +6,30 @@ const UserForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-
   const handleSubmit = async (e) => {
+    e.preventDefault();
+    //try {
+      const response = await axios.post('http://localhost:5000/api/users', {
+        email,
+        password,
+      });
+      console.log(response.data);
+      setEmail('');
+      setPassword('');
+      function redirectToPage(url) {
+        window.location.href = url;
+      }
+      // Redirect the user to a different webpage (e.g., after successful registration)
+      redirectToPage('/C:/Users/MANGESH JOSHI/Documents/web dev projects/mini project/DBMS_proj/event-manager/temp/src/App.js'); // Replace '/success-page' with the actual URL you want to redirect to
+    //} catch (error) {
+    //  console.error(error);
+    //}
+  };
+  
+  
+  
+
+  /*const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:5000/api/users', {
@@ -20,7 +42,7 @@ const UserForm = () => {
     } catch (error) {
       console.error(error);
     }
-  };
+  };*/
 
   return (
     <form onSubmit={handleSubmit}>
