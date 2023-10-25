@@ -16,15 +16,17 @@ const UserForm = () => {
       console.log(response.data);
       setEmail('');
       setPassword('');
-      function redirectToPage(url) {
-        window.location.href = url;
-      }
+      
       // Redirect the user to a different webpage (e.g., after successful registration)
-      redirectToPage('/C:/Users/MANGESH JOSHI/Documents/web dev projects/mini project/DBMS_proj/event-manager/temp/src/App.js'); // Replace '/success-page' with the actual URL you want to redirect to
+      redirectToPage('C:\Users\amjos\OneDrive\Documents\web dev\DBMS proj\event-manager\temp\index1.html'); // Replace '/success-page' with the actual URL you want to redirect to
     //} catch (error) {
     //  console.error(error);
     //}
+    function redirectToPage(url) {
+      window.location.href = url;
+    }
   };
+  
   
   
   

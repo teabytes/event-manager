@@ -15,6 +15,7 @@ import Explore from "./pages/explore";
 import ExploreMain from "./pages/explore-main";
 import MyClubs from "./pages/my-clubs";
 import MyClubsMain from "./pages/my-clubs-main";
+import UserForm from "./pages/UserForm";
 
 function App() {
   const action = useNavigationType();
@@ -90,7 +91,9 @@ function App() {
 
   return (
     <Routes>
+      
       <Route path="/" element={<HomeMain />} />
+      <Route path="/login" element={<UserForm />} />
       <Route path="/profile-registered" element={<ProfileRegistered />} />
       <Route path="/profile-participated" element={<ProfileParticipated />} />
       <Route
